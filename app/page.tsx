@@ -56,7 +56,7 @@ export default function Home() {
                 <div
                   className="absolute text-5xl transform transition-all duration-700 hover:text-pink-500"
                   style={{
-                    animation: "dance 5s ease-in-out infinite",
+                    animation: "dance 4s ease-in-out infinite",
                     top: "-180px",
                     left: "150px",
                     color: "magenta",
