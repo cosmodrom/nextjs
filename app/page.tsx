@@ -1,7 +1,19 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const LogoPage = () => {
+  const [svgContent, setSvgContent] = useState<string | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
+
+  // Fetch the SVG content from /public/csmdr.svg
+  useEffect(() => {
+    const fetchSvg = async () => {
+      const response = await fetch("/csmdr.svg");
+      const svgText = await response.text();
+      setSvgContent(svgText);
+    };
+
+    fetchSvg();
+  }, []);
 
   useEffect(() => {
     const svgElement = svgRef.current;
@@ -52,16 +64,18 @@ const LogoPage = () => {
       }
     };
 
-    svgElement?.addEventListener("mousemove", handleMouseMove);
-    svgElement?.addEventListener("mouseover", handleMouseOver);
-    svgElement?.addEventListener("mouseleave", handleMouseLeave);
+    if (svgElement) {
+      svgElement.addEventListener("mousemove", handleMouseMove);
+      svgElement.addEventListener("mouseover", handleMouseOver);
+      svgElement.addEventListener("mouseleave", handleMouseLeave);
 
-    // Cleanup event listeners on component unmount
-    return () => {
-      svgElement?.removeEventListener("mousemove", handleMouseMove);
-      svgElement?.removeEventListener("mouseover", handleMouseOver);
-      svgElement?.removeEventListener("mouseleave", handleMouseLeave);
-    };
+      // Cleanup event listeners on component unmount
+      return () => {
+        svgElement.removeEventListener("mousemove", handleMouseMove);
+        svgElement.removeEventListener("mouseover", handleMouseOver);
+        svgElement.removeEventListener("mouseleave", handleMouseLeave);
+      };
+    }
   }, []);
 
   return (
@@ -141,13 +155,10 @@ const LogoPage = () => {
         }
       `}</style>
 
-      {/* SVG Image */}
-      <img
+      {/* Render the fetched SVG content */}
+      <div
         ref={svgRef}
-        src="/csmdr.svg"
-        alt="Cosmodrom Logo"
-        width="300"
-        height="100"
+        dangerouslySetInnerHTML={{ __html: svgContent || "" }}
       />
     </>
   );
