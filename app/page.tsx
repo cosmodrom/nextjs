@@ -38,7 +38,7 @@ export default function Home() {
                   }}
                 >
             
-                  connect
+                  projects
                 </div>
                 {/* "Branch" item 4 */}
                 <div
