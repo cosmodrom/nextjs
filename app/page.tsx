@@ -29,31 +29,63 @@ export default function Home() {
               <div className="relative flex justify-center items-center">
                 {/* "Branch" item 1 */}
                 <div
-                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
-                  style={{ animation: "dance 3s ease-in-out infinite", top: "-80px", left: "0px" }}
+                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  style={{
+                    animation: "dance 3s ease-in-out infinite",
+                    top: "-150px",
+                    left: "0px",
+                    color: "cyan",
+                  }}
                 >
                   Option 1
                 </div>
                 {/* "Branch" item 2 */}
                 <div
-                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
-                  style={{ animation: "dance 3s ease-in-out infinite", top: "-60px", left: "50px", transformOrigin: "center" }}
+                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  style={{
+                    animation: "dance 3s ease-in-out infinite",
+                    top: "-100px",
+                    left: "80px",
+                    color: "limegreen",
+                  }}
                 >
                   Option 2
                 </div>
                 {/* "Branch" item 3 */}
                 <div
-                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
-                  style={{ animation: "dance 3s ease-in-out infinite", top: "-100px", left: "-50px" }}
+                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  style={{
+                    animation: "dance 3s ease-in-out infinite",
+                    top: "-120px",
+                    left: "-80px",
+                    color: "yellow",
+                  }}
                 >
                   Option 3
                 </div>
                 {/* "Branch" item 4 */}
                 <div
-                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
-                  style={{ animation: "dance 3s ease-in-out infinite", top: "-120px", left: "-20px" }}
+                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  style={{
+                    animation: "dance 3s ease-in-out infinite",
+                    top: "-200px",
+                    left: "-50px",
+                    color: "orangered",
+                  }}
                 >
                   Option 4
+                </div>
+                {/* "Branch" item 5 */}
+                <div
+                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  style={{
+                    animation: "dance 3s ease-in-out infinite",
+                    top: "-180px",
+                    left: "150px",
+                    color: "magenta",
+                  }}
+                >
+                  Option 5
                 </div>
               </div>
             </div>
