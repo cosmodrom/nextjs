@@ -29,9 +29,9 @@ export default function Home() {
               <div className="relative flex justify-center items-center">
                 {/* "Branch" item 1 */}
                 <div
-                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  className="absolute text-5xl transform transition-all duration-700 hover:text-pink-500"
                   style={{
-                    animation: "dance 1s ease-in-out infinite",
+                    animation: "dance 10s ease-in-out infinite",
                     top: "-150px",
                     left: "0px",
                     color: "cyan",
@@ -42,9 +42,9 @@ export default function Home() {
                 </div>
                 {/* "Branch" item 4 */}
                 <div
-                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  className="absolute text-5xl transform transition-all duration-700 hover:text-pink-500"
                   style={{
-                    animation: "dance 6s ease-in-out infinite",
+                    animation: "dance 1s ease-in-out infinite",
                     top: "-200px",
                     left: "-50px",
                     color: "orangered",
@@ -54,9 +54,9 @@ export default function Home() {
                 </div>
                 {/* "Branch" item 5 */}
                 <div
-                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
+                  className="absolute text-5xl transform transition-all duration-700 hover:text-pink-500"
                   style={{
-                    animation: "dance 3s ease-in-out infinite",
+                    animation: "dance 5s ease-in-out infinite",
                     top: "-180px",
                     left: "150px",
                     color: "magenta",
