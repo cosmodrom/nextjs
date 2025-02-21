@@ -37,31 +37,8 @@ export default function Home() {
                     color: "cyan",
                   }}
                 >
-                  Option 1
-                </div>
-                {/* "Branch" item 2 */}
-                <div
-                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
-                  style={{
-                    animation: "dance 3s ease-in-out infinite",
-                    top: "-100px",
-                    left: "80px",
-                    color: "limegreen",
-                  }}
-                >
-                  Option 2
-                </div>
-                {/* "Branch" item 3 */}
-                <div
-                  className="absolute text-5xl font-bold transform transition-all duration-700 hover:text-pink-500"
-                  style={{
-                    animation: "dance 3s ease-in-out infinite",
-                    top: "-120px",
-                    left: "-80px",
-                    color: "yellow",
-                  }}
-                >
-                  Option 3
+            
+                  vibs
                 </div>
                 {/* "Branch" item 4 */}
                 <div
@@ -73,7 +50,7 @@ export default function Home() {
                     color: "orangered",
                   }}
                 >
-                  Option 4
+                  message
                 </div>
                 {/* "Branch" item 5 */}
                 <div
