@@ -8,8 +8,8 @@ export default function Home() {
           className="dark:invert"
           src="/csmdr.svg"
           alt="GET READY"
-          width={180}
-          height={38}
+          width={400}
+          height={100}
           priority
         />
          </main>
