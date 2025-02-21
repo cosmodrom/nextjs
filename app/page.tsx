@@ -1,5 +1,3 @@
-import Image from "next/image";
-import MyComponent from '../components/AudioPlayer';
 import { useEffect, useRef } from "react";
 
 const LogoPage = () => {
@@ -143,47 +141,16 @@ const LogoPage = () => {
         }
       `}</style>
 
-      <svg
+      {/* SVG Image */}
+      <img
         ref={svgRef}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 300 100"
+        src="/csmdr.svg"
+        alt="Cosmodrom Logo"
         width="300"
         height="100"
-      >
-        <text
-          x="50%"
-          y="50%"
-          fontFamily="Arial, sans-serif"
-          fontSize="50"
-          fill="#0A0A33"
-          textAnchor="middle"
-          dominantBaseline="middle"
-        >
-          Cosmodrom
-        </text>
-      </svg>
+      />
     </>
   );
 };
 
 export default LogoPage;
-
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/csmdr.svg"
-          alt="csmdr"
-          width={220}
-          height={58}
-          priority
-        />
-        <AudioPlayer />
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      </footer>
-    </div>
-  );
-}
