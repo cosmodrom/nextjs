@@ -62,7 +62,7 @@ export default function Home() {
                     color: "magenta",
                   }}
                 >
-                  extras
+                  U+1F680
                 </div>
               </div>
             </div>
