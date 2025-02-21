@@ -38,7 +38,7 @@ export default function Home() {
                   }}
                 >
             
-                  vibs
+                  connect
                 </div>
                 {/* "Branch" item 4 */}
                 <div
@@ -50,7 +50,7 @@ export default function Home() {
                     color: "orangered",
                   }}
                 >
-                  message
+                  vibs
                 </div>
                 {/* "Branch" item 5 */}
                 <div
@@ -62,7 +62,7 @@ export default function Home() {
                     color: "magenta",
                   }}
                 >
-                  Option 5
+                  extras
                 </div>
               </div>
             </div>
