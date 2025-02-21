@@ -1,4 +1,4 @@
-"use client"; 
+"use client"; // Marking the file as a client-side component
 
 import { useState } from "react";
 import Image from "next/image";
@@ -23,27 +23,65 @@ export default function Home() {
             priority
           />
 
-          {/* Futuristic Popup Menu */}
+          {/* Futuristic Tree Branch Popup Menu */}
           {isHovered && (
-            <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-4 p-4 bg-opacity-50 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg backdrop-blur-md text-white">
-              <h3 className="text-lg font-bold">Futuristic Options</h3>
-              <ul className="flex flex-col gap-4 mt-2">
-                <li className="hover:text-yellow-300 cursor-pointer transition-colors">
+            <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-4 w-0 h-0">
+              <div className="relative flex justify-center items-center">
+                {/* "Branch" item 1 */}
+                <div
+                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
+                  style={{ animation: "dance 3s ease-in-out infinite", top: "-80px", left: "0px" }}
+                >
                   Option 1
-                </li>
-                <li className="hover:text-yellow-300 cursor-pointer transition-colors">
+                </div>
+                {/* "Branch" item 2 */}
+                <div
+                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
+                  style={{ animation: "dance 3s ease-in-out infinite", top: "-60px", left: "50px", transformOrigin: "center" }}
+                >
                   Option 2
-                </li>
-                <li className="hover:text-yellow-300 cursor-pointer transition-colors">
+                </div>
+                {/* "Branch" item 3 */}
+                <div
+                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
+                  style={{ animation: "dance 3s ease-in-out infinite", top: "-100px", left: "-50px" }}
+                >
                   Option 3
-                </li>
-              </ul>
+                </div>
+                {/* "Branch" item 4 */}
+                <div
+                  className="absolute text-white text-xl transform transition-all duration-700 hover:text-yellow-300"
+                  style={{ animation: "dance 3s ease-in-out infinite", top: "-120px", left: "-20px" }}
+                >
+                  Option 4
+                </div>
+              </div>
             </div>
           )}
         </div>
       </main>
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
+
+      <style jsx>{`
+        @keyframes dance {
+          0% {
+            transform: translateY(0px) rotate(0deg);
+          }
+          25% {
+            transform: translateY(-10px) rotate(5deg);
+          }
+          50% {
+            transform: translateY(0px) rotate(-5deg);
+          }
+          75% {
+            transform: translateY(10px) rotate(5deg);
+          }
+          100% {
+            transform: translateY(0px) rotate(0deg);
+          }
+        }
+      `}</style>
     </div>
   );
 }
