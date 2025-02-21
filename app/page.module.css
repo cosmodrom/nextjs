@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 48px;
+  color: #fff;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.logo.sparkle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(255,255,255,0.5), rgba(255,255,255,0) 70%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.logo.fire {
+  color: #ff4500;
+  text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500;
+}
+
+.logo.fire::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(255,69,0,0.5), rgba(255,69,0,0) 70%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.svgLogo {
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.popup p {
+  margin: 0;
+}
+
+.popup button {
+  margin-top: 10px;
+}
