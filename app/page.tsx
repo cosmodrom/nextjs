@@ -18,7 +18,7 @@ export default function Home() {
             className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-103"
             src="/csmdr.svg"
             alt="GET READY"
-            width={380}
+            width={350}
             height={180}
             priority
           />
@@ -32,9 +32,9 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-400 hover:text-pink-300"
                   style={{
                     animation: "dance 10s ease-in-out infinite",
-                    top: "-120px",
-                    left: "33px",
-                    color: "lightcyan",
+                    top: "-150px",
+                    left: "-33px",
+                    color: "cyan",
                   }}
                 >
             
@@ -45,7 +45,7 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
-                    top: "-150px",
+                    top: "-170px",
                     left: "-59px",
                     color: "orangered",
                   }}
@@ -57,7 +57,7 @@ export default function Home() {
                   className="absolute text-1xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in-out infinite",
-                    bottom: "1200px",
+                    bottom: "120px",
                     left: "100px",
                     color: "lightgray",
                   }}
