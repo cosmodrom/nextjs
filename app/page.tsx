@@ -58,8 +58,9 @@ export default function Home() {
                   style={{
                     animation: "dance 4s ease-in infinite",
                     top: "-100px",
-                    left: "30px",
+                    left: "60px",
                     color: "lightgray",
+                    transform: rotate(90deg);
                   }}
                 >
                   〰️
