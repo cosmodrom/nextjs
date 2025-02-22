@@ -57,8 +57,8 @@ export default function Home() {
                   className="absolute text-9xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in infinite",
-                    top: "-90px",
-                    left: "-60px",
+                    top: "-110px",
+                    left: "-110px",
                     color: "lightgray",
                     transform: rotate(180deg),
                   }}
