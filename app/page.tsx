@@ -29,7 +29,7 @@ export default function Home() {
               <div className="relative flex justify-center items-center">
                 {/* "Branch" item 1 */}
                 <div
-                  className="absolute text-3xl transform transition-all duration-400 hover:text-pink-300"
+                  className="absolute text-4xl transform transition-all duration-400 hover:text-pink-300"
                   style={{
                     animation: "dance 10s ease-in-out infinite",
                     top: "-100px",
@@ -45,8 +45,8 @@ export default function Home() {
                   className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
-                    top: "0px",
-                    left: "-50px",
+                    top: "-50px",
+                    left: "-250px",
                     color: "orangered",
                   }}
                 >
@@ -56,7 +56,7 @@ export default function Home() {
                 <div
                   className="absolute text-2xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
-                    animation: "dance 4s ease-in-out infinite",
+                    animation: "dance 4s ease-out infinite",
                     bottom: "11px",
                     left: "100px",
                     color: "lightgray",
