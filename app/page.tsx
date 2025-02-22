@@ -54,10 +54,10 @@ export default function Home() {
                 </div>
                 {/* "Branch" item 5 */}
                 <div
-                  className="absolute text-102xl transform transition-all duration-900 hover:text-pink-500"
+                  className="absolute text-88xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in infinite",
-                    bottom: "0px",
+                    top: "0px",
                     left: "0px",
                     color: "lightgray",
                   }}
