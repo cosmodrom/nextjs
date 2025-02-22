@@ -18,7 +18,7 @@ export default function Home() {
             className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-103"
             src="/csmdr.svg"
             alt="GET READY"
-            width={350}
+            width={330}
             height={180}
             priority
           />
