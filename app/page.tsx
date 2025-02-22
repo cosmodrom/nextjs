@@ -18,8 +18,8 @@ export default function Home() {
             className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-103"
             src="/csmdr.svg"
             alt="GET READY"
-            width={320}
-            height={180}
+            width={220}
+            height={100}
             priority
           />
 
@@ -32,7 +32,7 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-400 hover:text-pink-300"
                   style={{
                     animation: "dance 10s ease-in-out infinite",
-                    top: "-130px",
+                    top: "-100px",
                     left: "33px",
                     color: "cyan",
                   }}
