@@ -45,8 +45,8 @@ export default function Home() {
                   className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
-                    top: "-50px",
-                    left: "-250px",
+                    top: "10px",
+                    left: "-150px",
                     color: "orangered",
                   }}
                 >
@@ -54,10 +54,10 @@ export default function Home() {
                 </div>
                 {/* "Branch" item 5 */}
                 <div
-                  className="absolute text-88xl transform transition-all duration-900 hover:text-pink-500"
+                  className="absolute text-9xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in infinite",
-                    top: "0px",
+                    top: "-20px",
                     left: "0px",
                     color: "lightgray",
                   }}
