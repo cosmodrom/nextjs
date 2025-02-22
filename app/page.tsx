@@ -45,8 +45,8 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
-                    top: "-150px",
-                    left: "-5px",
+                    top: "-160px",
+                    left: "5px",
                     color: "orangered",
                   }}
                 >
@@ -57,7 +57,7 @@ export default function Home() {
                   className="absolute text-1xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in-out infinite",
-                    bottom: "10px",
+                    bottom: "14px",
                     left: "120px",
                     color: "lightgray",
                   }}
