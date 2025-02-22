@@ -18,7 +18,7 @@ export default function Home() {
             className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-103"
             src="/csmdr.svg"
             alt="GET READY"
-            width={360}
+            width={380}
             height={180}
             priority
           />
@@ -32,7 +32,7 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-400 hover:text-pink-300"
                   style={{
                     animation: "dance 10s ease-in-out infinite",
-                    top: "-100px",
+                    top: "-120px",
                     left: "33px",
                     color: "lightcyan",
                   }}
@@ -45,7 +45,7 @@ export default function Home() {
                   className="absolute text-3xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
-                    top: "-1500px",
+                    top: "-150px",
                     left: "-59px",
                     color: "orangered",
                   }}
@@ -57,8 +57,8 @@ export default function Home() {
                   className="absolute text-1xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 4s ease-in-out infinite",
-                    bottom: "50px",
-                    left: "150px",
+                    bottom: "1200px",
+                    left: "100px",
                     color: "lightgray",
                   }}
                 >
@@ -78,13 +78,13 @@ export default function Home() {
             transform: translateY(0px) rotate(0deg);
           }
           25% {
-            transform: translateY(-10px) rotate(5deg);
+            transform: translateY(-10px) rotate(9deg);
           }
           50% {
-            transform: translateY(0px) rotate(-5deg);
+            transform: translateY(0px) rotate(-9deg);
           }
           75% {
-            transform: translateY(10px) rotate(5deg);
+            transform: translateY(10px) rotate(9deg);
           }
           100% {
             transform: translateY(0px) rotate(0deg);
