@@ -38,11 +38,11 @@ export default function Home() {
                   }}
                 >
             
-                  projects
+                  🛸
                 </div>
                 {/* "Branch" item 4 */}
                 <div
-                  className="absolute text-3xl transform transition-all duration-900 hover:text-pink-500"
+                  className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
                     animation: "dance 1s ease-in-out infinite",
                     top: "-160px",
@@ -50,7 +50,7 @@ export default function Home() {
                     color: "orangered",
                   }}
                 >
-                  vibs
+                  🔊
                 </div>
                 {/* "Branch" item 5 */}
                 <div
@@ -62,7 +62,7 @@ export default function Home() {
                     color: "lightgray",
                   }}
                 >
-                  U+1F680
+                  〰️
                 </div>
               </div>
             </div>
