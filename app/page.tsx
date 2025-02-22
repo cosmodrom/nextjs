@@ -27,7 +27,7 @@ export default function Home() {
           {isHovered && (
             <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-4 w-0 h-0">
               <div className="relative flex justify-center items-center">
-                {/* "Branch" item 1 }
+                {/* "Branch" item 1 */}
                 <div
                   className="absolute text-4xl transform transition-all duration-400 hover:text-pink-300"
                   style={{
@@ -40,7 +40,7 @@ export default function Home() {
             
                   🛸
                 </div>
-                {/* "Branch" item 4 }
+                {/* "Branch" item 4 */}
                 <div
                   className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
@@ -52,7 +52,7 @@ export default function Home() {
                 >
                   🔊
                 </div>
-                { "Branch" item 5 */}
+                { /* "Branch" item 5 */}
                 <div
                   className="absolute text-9xl transform transition-all duration-900 hover:text-pink-500"
                   style={{
