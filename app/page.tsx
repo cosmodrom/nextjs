@@ -15,63 +15,17 @@ export default function Home() {
           onMouseLeave={() => setIsHovered(false)}
         >
           <Image
-            className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-103"
+            className="dark:invert cursor-pointer transition-transform duration-900 group-hover:scale-105"
             src="/csmdr.svg"
             alt="GET READY"
-            width={220}
+            width={230}
             height={100}
             priority
           />
-
-          {/* Futuristic Tree Branch Popup Menu */}
-          {isHovered && (
-            <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-4 w-0 h-0">
-              <div className="relative flex justify-center items-center">
-                {/* "Branch" item 1 */}
-                <div
-                  className="absolute text-4xl transform transition-all duration-400 hover:text-pink-300"
-                  style={{
-                    animation: "dance 10s ease-in-out infinite",
-                    top: "-100px",
-                    left: "33px",
-                    color: "cyan",
-                  }}
-                >
-            
-                  🛸
-               
-                {/* "Branch" item 4 */}
-                <div
-                  className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
-                  style={{
-                    animation: "dance 1s ease-in-out infinite",
-                    top: "10px",
-                    left: "-150px",
-                    color: "orangered",
-                  }}
-                >
-                  🔊
-                
-                { /* "Branch" item 5 */}
-                <div
-                  className="absolute text-9xl transform transition-all duration-900 hover:text-pink-500"
-                  style={{
-                    animation: "dance 4s ease-in infinite",
-                    top: "-110px",
-                    left: "-110px",
-                    color: "lightgray",
-                    transform: rotate(180deg),
-                  }}
-                >
-                  〰️
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       </main>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">since 1985</footer>
 
       <style jsx>{`
         @keyframes dance {
