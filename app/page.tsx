@@ -39,7 +39,7 @@ export default function Home() {
                 >
             
                   🛸
-                </div>
+               
                 {/* "Branch" item 4 */}
                 <div
                   className="absolute text-6xl transform transition-all duration-900 hover:text-pink-500"
@@ -51,7 +51,7 @@ export default function Home() {
                   }}
                 >
                   🔊
-                </div>
+                
                 { /* "Branch" item 5 */}
                 <div
                   className="absolute text-9xl transform transition-all duration-900 hover:text-pink-500"
