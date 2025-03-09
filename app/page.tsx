@@ -26,26 +26,6 @@ export default function Home() {
       </main>
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">since 1985</footer>
-
-      <style jsx>{`
-        @keyframes dance {
-          0% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          25% {
-            transform: translateY(-10px) rotate(9deg);
-          }
-          50% {
-            transform: translateY(0px) rotate(-9deg);
-          }
-          75% {
-            transform: translateY(10px) rotate(9deg);
-          }
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-        }
-      `}</style>
     </div>
   );
 }
